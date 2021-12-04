@@ -529,8 +529,8 @@ packages:
       tslib: 2.3.1
     dev: false
 
-  /@azure/communication-signaling/1.0.0-beta.11:
-    resolution: {integrity: sha512-+erzTnfEB0xymIHPJm6WXrYaWB/GvK6bMm8V3Kl4STcpY2qAO102DM6wEHsn7qtjbfwLp1+mC8ka8CoglWcugQ==}
+  /@azure/communication-signaling/1.0.0-beta.12:
+    resolution: {integrity: sha512-TyVz8K/gVeubjCjHPCHUT8CoPraWP0cOG1w0URLAmfXrA7uq7yDSjUOPmCpJngzh9RutWBGYic0KIPmg/RH+OQ==}
     engines: {node: '>=8.0.0'}
     dependencies:
       '@azure/core-http': 2.2.2
@@ -1615,6 +1615,7 @@ packages:
   /@opentelemetry/node/0.22.0_@opentelemetry+api@1.0.3:
     resolution: {integrity: sha512-+HhGbDruQ7cwejVOIYyxRa28uosnG8W95NiQZ6qE8PXXPsDSyGeftAPbtYpGit0H2f5hrVcMlwmWHeAo9xkSLA==}
     engines: {node: '>=8.0.0'}
+    deprecated: Package renamed to @opentelemetry/sdk-trace-node
     peerDependencies:
       '@opentelemetry/api': ^1.0.0
     dependencies:
@@ -9812,12 +9813,12 @@ packages:
     dev: false
 
   file:projects/communication-chat.tgz:
-    resolution: {integrity: sha512-3mBDemL2PvS7+J1J+I6rvF0FDpoN5BKfpISDGwz+7vbCTKOBa1Wrnp6OfdaXyT7clZ0vTdzAxbz0JN/MdWnM7w==, tarball: file:projects/communication-chat.tgz}
+    resolution: {integrity: sha512-QX8WXICH75483WEEFsfkLZvqsOsdnpwbb3Uh3OrEmKwXrbEvCuu4/zt83Cuk38Vh92MLUdWQYBHX77OXN3BDRA==, tarball: file:projects/communication-chat.tgz}
     name: '@rush-temp/communication-chat'
     version: 0.0.0
     dependencies:
       '@azure/communication-identity': 1.0.0
-      '@azure/communication-signaling': 1.0.0-beta.11
+      '@azure/communication-signaling': 1.0.0-beta.12
       '@azure/core-tracing': 1.0.0-preview.13
       '@microsoft/api-extractor': 7.18.19
       '@rollup/plugin-commonjs': 11.0.2_rollup@1.32.1
@@ -10965,7 +10966,7 @@ packages:
     dev: false
 
   file:projects/cosmos.tgz:
-    resolution: {integrity: sha512-MkpEMvRs6PSK3gmrUxl1T4dle8/dMBEwhNUzj+NRmcrDtovKjHRZiH//cXk3Fh3O0xlJe3Du6aTNxtQ1VIYPKg==, tarball: file:projects/cosmos.tgz}
+    resolution: {integrity: sha512-AeGLDOv/hdOpUCcWJdDLbcQKTgi6zgcAFcAP4mNkTCAU5QvHVAz2bc1xQaeA336B4YWb2JC51wS8vVMRLQGZAw==, tarball: file:projects/cosmos.tgz}
     name: '@rush-temp/cosmos'
     version: 0.0.0
     dependencies:
