@@ -40,7 +40,7 @@
     "unit-test:node": "mocha --reporter ../../../common/tools/mocha-multi-reporter.js dist-test/index.node.js",
     "unit-test": "npm run unit-test:node && npm run unit-test:browser",
     "docs": "typedoc --excludePrivate --excludeNotExported --excludeExternals --stripInternal --mode file --out ./dist/docs ./src",
-    "update": "cd ../../ && rush update"
+    "update": "cd ../../../ && rush update"
   },
   "files": [
     "dist/",
